@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Laptop Zone</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- Header -->
+  <header>
+    <h1>💻 Welcome to Laptop Zone</h1>
+    <p>Your one-stop shop for the best laptops in town.</p>
+  </header>
+
+  <!-- Main Section with Event Handling -->
+  <main>
+    <section id="cta">
+      <button id="cta-button">Click Me</button>
+      <p id="hover-text">Hover over this text 👀</p>
+      <input type="text" id="keypress-input" placeholder="Type something..." />
+      <p id="keypress-output"></p>
+      <p id="secret-action">🤫 Double-click or hold here for a surprise</p>
+    </section>
+  </main>
+
+  <!-- Image Gallery -->
+  <section id="gallery-section">
+    <h2>Explore Our Laptop Collection 🖼️</h2>
+    <div class="slideshow-container">
+        <img id="gallery-image" src="image1.jpg" alt="Laptop Image">
+        
+      <div class="gallery-buttons">
+        <button id="prev-btn">Previous</button>
+        <button id="next-btn">Next</button>
+      </div>
+    </div>
+  </section>
+
+  <!-- Tabs Section -->
+  <section id="tabs-section">
+    <h2>Why Choose Laptop Zone? 💼</h2>
+    <div class="tabs">
+      <div class="tab-buttons">
+        <button class="tab-btn active" data-tab="tab1">Top Brands</button>
+        <button class="tab-btn" data-tab="tab2">Student Deals</button>
+        <button class="tab-btn" data-tab="tab3">Fast Delivery</button>
+      </div>
+      <div class="tab-content">
+        <div class="tab-panel" id="tab1">
+          <p>We stock laptops from top brands like Apple, HP, Dell, Lenovo, and ASUS.</p>
+        </div>
+        <div class="tab-panel hidden" id="tab2">
+          <p>Enjoy unbeatable student discounts and free accessories!</p>
+        </div>
+        <div class="tab-panel hidden" id="tab3">
+          <p>Same-day delivery available in major cities. Get your laptop fast!</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Form Section -->
+  <section id="form-section">
+    <h2>Sign Up for Exclusive Offers 📧</h2>
+    <form id="signup-form" novalidate>
+      <div class="form-group">
+        <label for="name">Full Name *</label>
+        <input type="text" id="name" required>
+        <small class="error-message"></small>
+      </div>
+
+      <div class="form-group">
+        <label for="email">Email Address *</label>
+        <input type="email" id="email" required>
+        <small class="error-message"></small>
+      </div>
+
+      <div class="form-group">
+        <label for="password">Password *</label>
+        <input type="password" id="password" required minlength="8">
+        <small class="error-message"></small>
+      </div>
+
+      <button type="submit">Sign Up</button>
+    </form>
+    <p id="form-success" class="hidden">🎉 You’ve successfully signed up!</p>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+</html>

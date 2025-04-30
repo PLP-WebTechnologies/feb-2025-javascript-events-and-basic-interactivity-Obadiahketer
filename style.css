@@ -1,0 +1,177 @@
+/* General Reset & Styling */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    background-color: #f0f2f5;
+  }
+  
+  header {
+    background-color: #2d2d2d;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  section {
+    padding: 40px 20px;
+    text-align: center;
+  }
+  
+  /* Main CTA Section */
+  #cta-button {
+    padding: 12px 25px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    font-size: 18px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  #cta-button:hover {
+    background-color: #0056b3;
+  }
+  
+  #hover-text:hover {
+    color: red;
+    font-weight: bold;
+  }
+  
+  #keypress-input {
+    display: block;
+    margin: 20px auto;
+    padding: 10px;
+    font-size: 16px;
+    width: 80%;
+    max-width: 400px;
+  }
+  
+  #keypress-output {
+    font-style: italic;
+    color: #333;
+  }
+  
+  #secret-action {
+    margin-top: 20px;
+    background: #ddd;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  /* Gallery Styles */
+  .slideshow-container {
+    position: relative;
+    max-width: 600px;
+    margin: auto;
+  }
+  
+  #gallery-image {
+    width: 100%;
+    border-radius: 10px;
+    transition: opacity 0.5s ease;
+  }
+  
+  .gallery-buttons button {
+    padding: 10px 20px;
+    margin: 10px;
+    background-color: #333;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .gallery-buttons button:hover {
+    background-color: #555;
+  }
+  
+  /* Tabs */
+  .tabs {
+    max-width: 600px;
+    margin: auto;
+  }
+  
+  .tab-buttons {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+  }
+  
+  .tab-btn {
+    padding: 10px 20px;
+    margin: 5px;
+    border: none;
+    background-color: #ccc;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  .tab-btn.active {
+    background-color: #007bff;
+    color: white;
+  }
+  
+  .tab-panel {
+    padding: 20px;
+    border: 1px solid #ddd;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+  }
+  
+  .hidden {
+    display: none;
+  }
+  
+  /* Form */
+  #signup-form {
+    max-width: 500px;
+    margin: auto;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+  }
+  
+  .form-group {
+    text-align: left;
+    margin-bottom: 20px;
+  }
+  
+  .form-group label {
+    display: block;
+    font-weight: bold;
+  }
+  
+  .form-group input {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    font-size: 16px;
+  }
+  
+  .error-message {
+    color: red;
+    font-size: 14px;
+    display: none;
+  }
+  
+  #signup-form button {
+    padding: 10px 25px;
+    background-color: #28a745;
+    color: white;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  #form-success {
+    margin-top: 20px;
+    font-weight: bold;
+    color: green;
+  }
+  
